@@ -1,8 +1,7 @@
 services:
-     nginx:
-       image: nginx
+     level5:
+       build: ./
        ports:
-          - 5000:5000
-       volumes:
-          - ./nginx/nginx.conf:/etc/nginx/nginx.conf   
+          - 5001:5000
+         
      
